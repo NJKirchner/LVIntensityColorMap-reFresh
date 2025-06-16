@@ -20,6 +20,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Example.vi" Type="VI" URL="../Example.vi"/>
 			<Item Name="Colormap Example Dataset.vi" Type="VI" URL="../Colormap Example Dataset.vi"/>
+			<Item Name="Legend of All Colormaps.vi" Type="VI" URL="../Legend of All Colormaps.vi"/>
 		</Item>
 		<Item Name="LV Colormap Fresh.vim" Type="VI" URL="../LV Colormap Fresh.vim"/>
 		<Item Name="LV Colormap Names.ctl" Type="VI" URL="../LV Colormap Names.ctl"/>
