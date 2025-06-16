@@ -1,7 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="25008000">
-	<Property Name="NI.LV.All.SaveVersion" Type="Str">25.0</Property>
+<Project Type="Project" LVVersion="19008000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">19.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -16,8 +17,9 @@
 			<Item Name="Scrape Matplotlib Color Map Hacking.vi" Type="VI" URL="../Scrape Matplotlib Color Map Hacking.vi"/>
 		</Item>
 		<Item Name="Example" Type="Folder">
-			<Item Name="Colormap Example Dataset.vi" Type="VI" URL="../Colormap Example Dataset.vi"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Example.vi" Type="VI" URL="../Example.vi"/>
+			<Item Name="Colormap Example Dataset.vi" Type="VI" URL="../Colormap Example Dataset.vi"/>
 		</Item>
 		<Item Name="LV Colormap Fresh.vim" Type="VI" URL="../LV Colormap Fresh.vim"/>
 		<Item Name="LV Colormap Names.ctl" Type="VI" URL="../LV Colormap Names.ctl"/>
