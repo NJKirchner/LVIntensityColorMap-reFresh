@@ -14,6 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="dev CM Extraction" Type="Folder">
+			<Item Name="Scrape Matplotlib Color Map Hacking (single).vi" Type="VI" URL="../Scrape Matplotlib Color Map Hacking (single).vi"/>
 			<Item Name="Scrape Matplotlib Color Map Hacking.vi" Type="VI" URL="../Scrape Matplotlib Color Map Hacking.vi"/>
 		</Item>
 		<Item Name="Example" Type="Folder">
